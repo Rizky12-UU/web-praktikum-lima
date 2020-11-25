@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+body{
+    background-image: url("bg jabat tangan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chatbox{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+.chatbox ul{
+    list-style: none;
+    padding: 15px;
+    
+}
+
+.chatbox input,
+.chatbox button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 0;
+
+}
+
+.chatbox input{
+    left: 0;
+    width: 80%;
+}
+.chatbox button{
+    width: 20%;
+}
